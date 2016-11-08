@@ -1,0 +1,60 @@
+.background    { background: url("vortex.svg");
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: rgb(200, 50, 100); }
+.wall          { background: blue;
+max-height: 20px   }
+
+.actor  { position: absolute;  }
+.player { background:url('bunny.png') }
+.coin { background:url("coin.png")}
+
+
+.game {
+  overflow: hidden;
+  max-width: 1600px;
+  max-height: 450px;
+  position: relative;
+}
+.lost .player {
+  background: #2E2E2E;
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
+#score
+{
+	color:#5882FA;
+    position: absolute;
+    z-index: 100;
+	margin-left:10px;
+	margin-top:4px;	
+	font-size:25px;
+}
+#game{
+    z-index: 100;
+	margin-left:220px;
+	position: absolute;
+	font-size:40px;
+	margin-top:4px;	
+	color:#5882FA;
+}
+
+#level{
+    z-index: 100;
+	margin-left:600px;
+	position: absolute;
+	font-size:25px;
+	margin-top:4px;	
+	color:#5882FA;
+}
+
+#description{
+    z-index: 100;
+	margin-left:100px;
+	position: absolute;
+	font-size:20px;
+	margin-top:104px;	
+	color:#5882FA;
+}
